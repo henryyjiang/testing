@@ -1,0 +1,162 @@
+Structure 0
+	best_hop: 2
+	Hop: 0
+		Objective loss: 92.57970718874374
+		Energy loss: -0.13276587
+		Unnormalized energy loss: -109.1382698967992
+		Novel loss: 0.0
+		Soft sphere loss: 92.71247306301036
+		Composition: [22 22 22 22 22 22  8  8  8  8  8  8  8  8  8  8  8  8]
+		perturb: perturbPos
+	Hop: 1
+		Objective loss: -1.4965462684631348
+		Energy loss: -1.4965463
+		Unnormalized energy loss: -139.8058911157995
+		Novel loss: 0.0
+		Soft sphere loss: 0.0
+		Composition: [22 22 22 22 22 22  8  8  8  8  8  8  8  8  8  8  8  8 32]
+		perturb: addAtom
+	Hop: 2
+		Objective loss: -1.7842659950256348
+		Energy loss: -1.784266
+		Unnormalized energy loss: -145.272565920487
+		Novel loss: 0.0
+		Soft sphere loss: 0.0
+		Composition: [22 22 22 22 22 22  8  8  8  8  8  8  8  8  8  8  8  8 32]
+		perturb: perturbCell
+	Hop: 3
+		Objective loss: 227.2925814959717
+		Energy loss: -0.55968595
+		Unnormalized energy loss: -122.00554497970639
+		Novel loss: 0.0
+		Soft sphere loss: 227.85226744148255
+		Composition: [22 22 22 22 22 22  8  8  8  8  8  8  8  8  8  8  8  8 32]
+		perturb: perturbPos
+	Hop: 4
+		Objective loss: -1.1180543899536133
+		Energy loss: -1.1180544
+		Unnormalized energy loss: -132.6145454241186
+		Novel loss: 0.0
+		Soft sphere loss: 0.0
+		Composition: [22 22 22 22 22 22  8  8  8  8  8  8  8  8  8  8  8  8 32]
+		perturb: swapAtom
+	Hop: 5
+		Objective loss: -0.9787246584892273
+		Energy loss: -0.97872466
+		Unnormalized energy loss: -133.77856118811786
+		Novel loss: 0.0
+		Soft sphere loss: 0.0
+		Composition: [22 22 22 22 22 22  8  8  8  8  8  8  8  8  8  8  8  8 32 47]
+		perturb: addAtom
+	Hop: 6
+		Objective loss: -0.9127391576766968
+		Energy loss: -0.91273916
+		Unnormalized energy loss: -127.3959151585339
+		Novel loss: 0.0
+		Soft sphere loss: 0.0
+		Composition: [47 22 22 22 22 22  8  8  8  8  8  8  8  8  8  8  8  8 32 47]
+		perturb: perturbAtomicNum
+	Hop: 7
+		Objective loss: -0.7874199748039246
+		Energy loss: -0.78742
+		Unnormalized energy loss: -128.5095074792157
+		Novel loss: 0.0
+		Soft sphere loss: 0.0
+		Composition: [47 22 22 22 22 22  8  8  8  8  8  8  8  8  8  8  8  8 32 47 47]
+		perturb: addAtom
+	Hop: 8
+		Objective loss: 4.059774053236567
+		Energy loss: -0.8825353
+		Unnormalized energy loss: -130.50692886307343
+		Novel loss: 0.0
+		Soft sphere loss: 4.942309332033717
+		Composition: [47 22 22 22 22 22  8  8  8  8  8  8  8  8  8  8  8  8 32 47 47]
+		perturb: perturbPos
+	Hop: 9
+		Objective loss: -0.8792728185653687
+		Energy loss: -0.8792728
+		Unnormalized energy loss: -130.43841719820603
+		Novel loss: 0.0
+		Soft sphere loss: 0.0
+		Composition: [47 22 22 22  8 22  8  8  8  8  8  8  8  8  8 22  8  8 32 47 47]
+		perturb: swapAtom
+	Hop: 10
+		Objective loss: -0.8923789858818054
+		Energy loss: -0.892379
+		Unnormalized energy loss: -124.87330672096941
+		Novel loss: 0.0
+		Soft sphere loss: 0.0
+		Composition: [47 22 22 22  8 22  8  8  8  8  8  8  8  8 22  8  8 32 47 47]
+		perturb: removeAtom
+	Hop: 11
+		Objective loss: -0.7038699984550476
+		Energy loss: -0.70387
+		Unnormalized energy loss: -121.10312697243425
+		Novel loss: 0.0
+		Soft sphere loss: 0.0
+		Composition: [47 22 22 22  8 22  8  8  8  8  8  8  8  8 22  8  8 32 47 47]
+		perturb: perturbCell
+	Hop: 12
+		Objective loss: -0.5603557825088501
+		Energy loss: -0.5603558
+		Unnormalized energy loss: -118.2328426535103
+		Novel loss: 0.0
+		Soft sphere loss: 0.0
+		Composition: [47 22 22 22  8 22  8  8  8  8  8  8  8  8 22  8  8 32 47 47]
+		perturb: perturbPos
+	Hop: 13
+		Objective loss: -0.6357322931289673
+		Energy loss: -0.6357323
+		Unnormalized energy loss: -116.79284185424599
+		Novel loss: 0.0
+		Soft sphere loss: 0.0
+		Composition: [47  8 22 22  8 22  8  8  8  8  8  8  8  8 22  8  8 32 47 47]
+		perturb: perturbAtomicNum
+	Hop: 14
+		Objective loss: -0.8755103945732117
+		Energy loss: -0.8755104
+		Unnormalized energy loss: -121.58840388313088
+		Novel loss: 0.0
+		Soft sphere loss: 0.0
+		Composition: [47  8 22 22  8 22  8  8  8  8  8  8  8  8 22  8  8 32 47 47]
+		perturb: swapAtom
+	Hop: 15
+		Objective loss: 0.23762994855221287
+		Energy loss: -0.70100874
+		Unnormalized energy loss: -121.63193547383223
+		Novel loss: 0.0
+		Soft sphere loss: 0.9386386856394626
+		Composition: [47  8 22 22  8 22  8  8  8  8  8  8  8  8 22  8  8 32 47 47 47]
+		perturb: addAtom
+	Hop: 16
+		Objective loss: -0.8077396154403687
+		Energy loss: -0.8077396
+		Unnormalized energy loss: -123.87328391924773
+		Novel loss: 0.0
+		Soft sphere loss: 0.0
+		Composition: [47  8 22 22  8 22  8  8  8  8  8  8  8  8 22  8  8 32 47 47 47]
+		perturb: perturbPos
+	Hop: 17
+		Objective loss: -0.5462570190429688
+		Energy loss: -0.546257
+		Unnormalized energy loss: -116.26674439323567
+		Novel loss: 0.0
+		Soft sphere loss: 0.0
+		Composition: [47  8 22 22  8 22  8  8  8  8  8  8  8  8 22 47  8 32 47 47 47]
+		perturb: perturbAtomicNum
+	Hop: 18
+		Objective loss: -0.599291980266571
+		Energy loss: -0.599292
+		Unnormalized energy loss: -111.83322559366475
+		Novel loss: 0.0
+		Soft sphere loss: 0.0
+		Composition: [47  8 22 22  8 22  8  8  8  8  8  8  8 22 47  8 32 47 47 47]
+		perturb: removeAtom
+	Hop: 19
+		Objective loss: -0.4833435118198395
+		Energy loss: -0.4833435
+		Unnormalized energy loss: -106.56672521306345
+		Novel loss: 0.0
+		Soft sphere loss: 0.0
+		Composition: [47  8 22  8  8 22  8  8  8  8  8  8  8 22 47  8 32 47 47 47]
+		perturb: perturbAtomicNum
