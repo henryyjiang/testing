@@ -1,5 +1,6 @@
 import sys
-sys.path.append("C:\\Users\iamhe\PycharmProjects\MatStructPredict")
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname("../.."))))
 from msp.dataset import download_dataset, load_dataset, combine_dataset, update_dataset
 from msp.composition import generate_random_compositions, sample_random_composition
 from msp.forcefield import MDL_FF
