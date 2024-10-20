@@ -21,6 +21,8 @@ class PSO():
         self.best_losses = []
         self.best_loss = float('inf')
         self.avg_losses = []
+        self.calculator = Energy(normalize=True, ljr_ratio=1)
+
 
     def init_atoms(self, density=0.2):
         beta = np.random.uniform(0, 180)
@@ -78,28 +80,13 @@ class PSO():
             The computed loss for each particle
         """
         n_particles = x.shape[0]
-        #j = [self.objective_func(x[i]) for i in range(n_particles)]
+        j = [self.objective_func(x[i]) for i in range(n_particles)]
 
-        """
-        upload as batch, use mdl_ff optimize in order to perform local optimization and return loss.
-        how do i pass the resulting atoms into my pso function?
-        """
-        my_dataset = download_dataset(repo="MP", save=True)
-        my_dataset = json.load(open("../data/data_subset_msp.json", "r"))
-        train_config = 'mdl_config.yml'
-        forcefield = MDL_FF(train_config, my_dataset)
+        self.best_losses.append(self.best_loss)
+        self.avg_losses.append(np.mean(j))
 
-        new_atoms = [self.dimensions_to_atoms(x[i]) for i in range(n_particles)]
-        objective_func = Energy(normalize=True, ljr_ratio=1)
-        new_atoms, obj_loss, energy_loss, novel_loss, soft_sphere_loss = forcefield.optimize(new_atoms, steps=100, objective_func=objective_func, log_per=0,
-                                                                                             learning_rate=.05, batch_size=4, cell_relax=True, optim="Adam")
+        return np.array(j)
 
-        #self.best_losses.append(self.best_loss)
-        #self.avg_losses.append(np.mean(j))
-
-        #return np.array(j)
-        res = [i[0] for i in obj_loss]
-        return res
     def run(self):
         options = {'c1': 0.5, 'c2': 0.3, 'w':0.9} # cognitive, social, itertia
         particles = 10 # number of particles in system

@@ -26,7 +26,7 @@ my_dataset = download_dataset(repo="MP", save=True)
 #my_dataset = load_dataset(path ="path/to/dataset")
 my_dataset = json.load(open("../data/data_subset_msp.json", "r"))
 #print(my_dataset[0])
-max_iterations=1
+max_iterations=5
 
 #Initialize a forcefield class, reading in from config (we use MDL_FF but it can be a force field from another library)
 train_config = 'mdl_config.yml'
@@ -116,7 +116,7 @@ for i in range(0, max_iterations):
     plt.xlabel('Steps')
     plt.ylabel('Energies')
     plt.legend()
-    plt.show()
+    plt.savefig(f'energies_basin_{i+1}.png')
     plt.close()
 
     for i, accept_rate_list in enumerate(accept_rate):
@@ -124,7 +124,7 @@ for i in range(0, max_iterations):
     plt.xlabel('Steps')
     plt.ylabel('Accept Rate')
     plt.legend()
-    plt.show()
+    plt.savefig(f'accept_rate_basin_{i+1}.png')
     plt.close()
 
     for i, temps_list in enumerate(temps):
@@ -132,14 +132,14 @@ for i in range(0, max_iterations):
     plt.xlabel('Steps')
     plt.ylabel('Temps')
     plt.legend()
-    plt.show()
+    plt.savefig(f'temps_basin_{i+1}.png')
     plt.close()
 
     plt.scatter(range(len(step_sizes)), step_sizes)
     plt.xlabel('Steps')
     plt.ylabel('Step Sizes')
     plt.legend()
-    plt.show()
+    plt.savefig(f'step_sizes_basin_{i + 1}.png')
     plt.close()
 
                   

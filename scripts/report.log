@@ -6236,3 +6236,42 @@ AttributeError: 'list' object has no attribute 'shape'
 2024-10-14 01:05:49,340 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -2.7446300983428955, best pos: [ 2.41330314  0.38446018  3.41755629  1.49575377  6.18756819  0.57520205
   9.18793678  5.68947411  3.86813807 -0.22852968 -2.82878566  4.01499128
   4.79234648  3.97640419 -3.25979877 -2.27162147 -1.30324984  4.10694933]
+2024-10-18 11:01:13,076 - root - INFO - Using PyTorch automatic mixed-precision
+2024-10-18 11:01:13,078 - root - INFO - GPU is available: True, Quantity: None
+2024-10-18 11:01:13,078 - root - INFO - Dataset(s) used:
+2024-10-18 11:01:13,078 - root - INFO - Dataset length: ('full', 24677)
+2024-10-18 11:01:13,078 - root - INFO - Dataset length: ('train', 22209)
+2024-10-18 11:01:13,079 - root - INFO - Dataset length: ('val', 1233)
+2024-10-18 11:01:13,079 - root - INFO - Dataset length: ('test', 1233)
+2024-10-18 11:01:13,698 - pyswarms.single.global_best - INFO - Optimize for 500 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-10-18 11:04:17,651 - root - INFO - MDLCalculator instantiated from config: mdl_config.yml
+2024-10-18 11:04:17,687 - root - INFO - MDLCalculator: setting up torchmd_et for calculation
+2024-10-18 11:04:22,048 - root - INFO - MDLCalculator: weights for model No.1 loaded from ../ensemble_model/torchmd-1/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:04:22,124 - root - INFO - MDLCalculator: weights for model No.2 loaded from ../ensemble_model/torchmd-2/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:04:22,196 - root - INFO - MDLCalculator: weights for model No.3 loaded from ../ensemble_model/torchmd-3/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:04:22,262 - root - INFO - MDLCalculator: weights for model No.4 loaded from ../ensemble_model/torchmd-4/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:04:22,370 - root - INFO - MDLCalculator: weights for model No.5 loaded from ../ensemble_model/torchmd-5/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:07:08,607 - root - INFO - MDLCalculator instantiated from config: mdl_config.yml
+2024-10-18 11:07:08,644 - root - INFO - MDLCalculator: setting up torchmd_et for calculation
+2024-10-18 11:07:12,656 - root - INFO - MDLCalculator: weights for model No.1 loaded from ../ensemble_model/torchmd-1/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:07:12,716 - root - INFO - MDLCalculator: weights for model No.2 loaded from ../ensemble_model/torchmd-2/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:07:12,773 - root - INFO - MDLCalculator: weights for model No.3 loaded from ../ensemble_model/torchmd-3/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:07:12,829 - root - INFO - MDLCalculator: weights for model No.4 loaded from ../ensemble_model/torchmd-4/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:07:12,884 - root - INFO - MDLCalculator: weights for model No.5 loaded from ../ensemble_model/torchmd-5/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:07:12,911 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-10-18 11:11:15,532 - root - INFO - MDLCalculator instantiated from config: mdl_config.yml
+2024-10-18 11:11:15,570 - root - INFO - MDLCalculator: setting up torchmd_et for calculation
+2024-10-18 11:11:19,759 - root - INFO - MDLCalculator: weights for model No.1 loaded from ../ensemble_model/torchmd-1/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:11:19,834 - root - INFO - MDLCalculator: weights for model No.2 loaded from ../ensemble_model/torchmd-2/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:11:19,890 - root - INFO - MDLCalculator: weights for model No.3 loaded from ../ensemble_model/torchmd-3/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:11:19,951 - root - INFO - MDLCalculator: weights for model No.4 loaded from ../ensemble_model/torchmd-4/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:11:20,007 - root - INFO - MDLCalculator: weights for model No.5 loaded from ../ensemble_model/torchmd-5/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:11:20,032 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-10-18 11:12:13,838 - root - INFO - MDLCalculator instantiated from config: mdl_config.yml
+2024-10-18 11:12:13,870 - root - INFO - MDLCalculator: setting up torchmd_et for calculation
+2024-10-18 11:12:17,924 - root - INFO - MDLCalculator: weights for model No.1 loaded from ../ensemble_model/torchmd-1/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:12:17,993 - root - INFO - MDLCalculator: weights for model No.2 loaded from ../ensemble_model/torchmd-2/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:12:18,075 - root - INFO - MDLCalculator: weights for model No.3 loaded from ../ensemble_model/torchmd-3/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:12:18,142 - root - INFO - MDLCalculator: weights for model No.4 loaded from ../ensemble_model/torchmd-4/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:12:18,212 - root - INFO - MDLCalculator: weights for model No.5 loaded from ../ensemble_model/torchmd-5/checkpoint_0/best_checkpoint.pt
+2024-10-18 11:12:18,245 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
